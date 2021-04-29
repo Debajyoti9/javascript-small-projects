@@ -1,0 +1,131 @@
+body{
+    background: #808080;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3fada8, #808080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3fada8, #808080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: #3a6186;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+     max-width: 1200px;
+     margin: 3.5rem auto;
+     height: 540px;
+     box-shadow:10px 10px 5px rgba(8, 4, 4);
+     border-radius: 8px;
+}
+
+.container >h1{
+    color: #fff;
+    padding: 1.5rem 25.2rem;
+    font-size: 34px;
+    font-weight: 400;
+    font-family:cursive;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow:5px 5px 5px rgba(0, 0, 0,0.5);
+    text-shadow:2px 2px #050801;
+}
+.genarate{
+    padding: 2rem 26rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    font-size: 22px;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #0e161d;
+    background-image: none;
+    padding: 0.8rem;
+  }
+  Remove IE arrow
+  select::-ms-expand {
+    display: none;
+  }
+  /* Custom Select */
+  .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #02152b;
+    overflow: hidden;
+    border-radius: .25em;
+  }
+  select {
+    flex: 1;
+    padding: 0 .5 em;
+    color: #fff;
+    cursor: pointer;
+  }
+  /* Arrow */
+  .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #34495e;
+    cursor: pointer;
+    pointer-events: none;
+    -webkit-transition: .25s all ease;
+    -o-transition: .25s all ease;
+    transition: .25s all ease;
+  }
+  /* Transition */
+  .select:hover::after {
+    color: #123bf3;
+  }
+  
+  button{
+      margin: 1.6rem 4.2rem;
+      padding: 12px 24px;
+      border: 2px solid #9ad1eb;
+      outline: none;
+      background-color: #373672;
+      color: #fff;
+      font-size: 20px;
+      text-shadow:2px 2px 5px black;
+      border-radius: 50px;
+      cursor: pointer;
+  }
+
+  button:hover{
+      background-color:#860043;
+      border: 2px solid black;
+  }
+
+  #text{
+    margin: 1rem 15rem;
+    background: #B24592;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #000000cb;
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  #text >h3{
+      font-size: 30px;
+      font-style: italic;
+  }
+
+  #text >h5{
+      padding: 5px 0 3px 23rem;
+      font-size: medium;
+      color: darkgreen;
+      text-shadow: darkslategray;
+  }

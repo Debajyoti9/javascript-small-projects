@@ -1,0 +1,35 @@
+.header{
+    margin-top: 1.2rem;
+    background-color: #311546c0;
+    color: #fff;
+    border-radius: 3%;
+}
+
+.clkdiv{
+    border: 1.2rem solid #180f20;
+    border-radius: 18%;
+    margin: 7rem auto;
+    width: 680px;
+    height: 520px;
+    background-color: #24012483;
+}
+
+body{
+    background-image: url('https://images4.alphacoders.com/792/792774.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.cl{
+    background-color: #16020294;
+    font-size: 3.5rem;
+}
+
+.date{
+    color: #ffc400;
+}
+
+.dt{
+    background-color: #1e536b8a;
+}

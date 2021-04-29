@@ -1,0 +1,125 @@
+body {
+    font-family: Roboto;
+    background: #8E0E00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8E0E00, #1F1C18);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+#container{
+    margin: 100px auto;
+    width: 425px;
+    height: 545px;
+    background: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+}
+
+#container > h1{
+   padding: 0.8rem 6rem;
+   background: #291202;
+   margin: 0;
+   color: #f7f7f7;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+p{
+    padding-left: 20px;
+}
+
+form input[type="text"]{
+    width: 90px;
+}
+
+input{
+    margin-left: 20px;
+}
+b{
+    margin-left: 16px;
+}
+
+#bill{
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    font-size: 14px;
+    color: #ff0000;
+    background-color: #f7f7f7;
+}
+
+#bill:focus{
+    border: 3px solid #2980b9;
+    outline: none;
+    background: #fff;
+}
+#serviceQuial{
+    margin-left: 20px;
+    padding: 13px 13px 20px 20px;
+    font-size: 25px;
+}
+
+#pepole{
+    width: 60%;
+    padding: 5px 5px 8px 8px;
+    font-size: 14px;
+    color: #ff0000;
+    background-color: #f7f7f7;
+}
+
+#pepole:focus{
+    border: 2px solid #000000;
+    outline: none;
+    background: #fff;
+}
+
+button{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 1.5rem 6.5rem;
+    background: #AD133A;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #4c2827;
+    border-bottom-color: #111;
+}
+
+button:active {
+    position: relative;
+    top: 1px;
+}
+
+#tooltip{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#tooltip::before{
+    content: "Tip Ammount";
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+
+#tooltip sup{
+    font-size: 20px;
+    top: -18px;
+}
+
+#totaltip small {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
